@@ -2,7 +2,7 @@
 using UnityEngine;
 
 
-public class SphereSurfaceDistribution : Distribution
+public class SphereSurfaceDistribution : ExtendedDistribution
 {
     [Header("Sphere Surface")]
     public float radius = 1;

@@ -4,7 +4,7 @@ using UnityEngine;
 /// <summary>
 /// Simple random distribution depending on a radius (distance)
 /// </summary>
-public class BoxDistribution : Distribution
+public class BoxDistribution : ExtendedDistribution
 {
     public enum Mode
     {

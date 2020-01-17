@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MeshSurfaceDistribution : Distribution
+public class MeshSurfaceDistribution : ExtendedDistribution
 {
     public GameObject MeshPrefab;
     public List<float> Weights;
